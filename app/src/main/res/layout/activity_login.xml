@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zohocorp.krishna_pt1251.groupfileencryption.activites.LoginActivity"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical">
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:hint="Username"
+        android:textSize="16sp"
+        android:id="@+id/user_name_view"
+        android:layout_margin="16dp"
+        />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@id/user_name_view"
+        android:layout_margin="16dp"
+        android:textSize="16sp"
+        android:id="@+id/user_pwd_view"
+
+        />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/login_btn"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorText"
+        android:layout_below="@+id/user_pwd_view"
+        android:layout_margin="16dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:text="Sign Up"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/btn_sign_up"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/colorText"
+        android:layout_margin="16dp"
+        android:textSize="16sp"/>
+
+
+
+</LinearLayout>

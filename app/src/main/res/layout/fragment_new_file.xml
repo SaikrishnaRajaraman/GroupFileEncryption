@@ -1,0 +1,72 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zohocorp.krishna_pt1251.groupfileencryption.fragments.NewFileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/file_name_input">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="FileName"
+            android:textAlignment="viewStart"
+            android:id="@+id/file_name_view"
+            android:textSize="18sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/file_name_input"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/file_pwd_input"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="File Password"
+            android:id="@+id/file_password_view"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/save_btn" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/file_pwd_input"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/save_btn">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="File Contents"
+            android:id="@+id/file_content_view"
+            android:inputType="textMultiLine"
+            android:minLines="1"
+            android:gravity="top|left"
+            android:maxLines="10"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+</RelativeLayout>

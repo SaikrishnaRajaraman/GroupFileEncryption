@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Enigma</string>
+    <string name="create_new_file">Create New File</string>
+    <string name="open_file">Open File</string>
+    <string name="share_file">Share File</string>
+    <string name="change_password">Change Password</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+
+
+        <item
+            android:id="@+id/nav_openFile"
+            android:title="@string/open_file"
+            android:icon="@drawable/ic_open_file"
+            />
+
+
+        <item
+            android:icon="@drawable/ic_create_new_file"
+            android:id="@+id/nav_newFile"
+            android:title="@string/create_new_file"
+            />
+
+
+
+        <item
+            android:id="@+id/nav_shareFile"
+            android:icon="@drawable/ic_share_file"
+            android:title="@string/share_file"
+            />
+
+        <item
+            android:id="@+id/nav_changePassword"
+            android:icon="@drawable/ic_change_password"
+            android:title="@string/change_password"
+            />
+    </group>
+</menu>
